@@ -1,0 +1,232 @@
+/*User-account*/
+.account-container {
+    width: 100vw;
+    padding: 3rem 9rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    position: relative;
+}
+
+.account-details{
+    width: 100%;
+    height: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--white);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+}
+ .user-image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: #fff;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.user-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#edit-account-img {
+    position: absolute;
+    top: 14%;
+    right: 36%;
+    color: var(--grey);
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: var(--white);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+}
+
+.account-details .user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+ .user-details h2 {
+    color: transparent;
+    background: var(--gradient);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip:text;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.account-details .user-details p {
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.account-container .btn-grp{
+    width: 50%;
+    justify-content: space-around;
+}
+.account-details-form {
+    width: 30rem;
+    min-height: 45rem;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background: var(--white);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+.blur{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+}
+.account-details-form .input-grp {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.account-details-form .input-grp input {
+    width: 20rem;
+    height: 3rem;
+    padding: 0 .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid var(--grey);
+    outline: none;
+    color: var(--grey);
+}
+.account-details-form .input-grp input::placeholder{
+    color: var(--grey);
+}
+
+.account-details-form .input-grp textarea {
+    width: 20rem;
+    height: 8rem;
+    padding: .5rem;
+    border: 1px solid var(--grey);
+    outline: none;
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 400;
+    resize: none;
+}   
+.account-details-form .input-grp textarea::placeholder{
+        color: var(--grey);
+}
+.account-details-form .input-grp input:focus,
+.account-details-form .input-grp textarea:focus {
+    border: 1.5px solid var(--black);
+    color: var(--black);
+}
+
+.account-details-form .input-grp label {
+    color: var(--black);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.account-details-form .input-btn {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.account-options {
+    width: 100%;
+    height: 50%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.account-options li {
+    min-width: 10rem;
+    height: 5rem;
+    padding: 1rem;
+    margin: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    transition: .5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background: var(--white);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 0.5rem;
+}
+
+.account-options li:hover {
+    opacity: 0.7;
+}
+
+.account-options li span,
+.account-options a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.account-options li .ion-icon {
+    color: var(--black);
+    font-size: 1.5rem;
+}
+
+.account-footer {
+    color: #9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.account-footer h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.account-sign-container{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.account-sign-container button{
+    width: 10rem;
+    margin-left: 2rem;
+}

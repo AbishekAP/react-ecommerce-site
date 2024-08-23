@@ -1,0 +1,34 @@
+.loader-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    width: 8rem;
+    height: 8rem;
+    border:0.5rem double #00ffff;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: Loader 2s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes Loader{
+    0%{
+        transform: rotate(0deg);
+        border-color:#00e1ff;
+        border-right-color: transparent;
+    }
+    50%{
+        transform: rotate(180deg);
+        border-color:#3002fc;
+        border-right-color: transparent;
+    }
+    100%{
+        transform: rotate(360deg);
+        border-color:#fc02bd;
+        border-right-color: transparent;
+    }
+}

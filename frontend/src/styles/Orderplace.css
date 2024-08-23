@@ -1,0 +1,26 @@
+.order-placed-container{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 3rem 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.order-placed-container .msg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: 1rem;
+}
+.order-placed-container .msg span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--black);
+}
+.order-placed-container .ion-icon {
+    font-size: 2.5rem;
+    color: #138f02;
+  }

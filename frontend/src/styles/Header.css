@@ -1,0 +1,54 @@
+header {
+    width: 100vw;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--white);
+    box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
+  
+  header .logo h1 a{
+    background: var(--gradient);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+    font-size: 1.5rem;
+    font-family: "Nabla", 'Noto Serif Display',serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 12;
+    cursor: pointer;
+  }
+  
+  header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  header nav ul li {
+    list-style: none;
+  }
+  
+  header nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+  }
+  header nav ul li a .ion-icon {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.5rem;
+  }
+  header nav ul li a:hover,header nav ul li a .ion-icon:hover {
+    text-decoration: none;
+    color: var(--grey);
+  }

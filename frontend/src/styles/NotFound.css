@@ -1,0 +1,16 @@
+
+.notfound-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.notfound-container h3 {
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.notfound-container .ion-icon{
+    color: var(--grey);
+    font-size: 10rem
+}

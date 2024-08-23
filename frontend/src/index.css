@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --white: #ffffff;
+  --black: #363636;
+  --grey: rgba(0, 0, 0, 0.3);
+  --gradient: linear-gradient(to left, #fc02bd, #00e1ff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: 'Poppins','Segoe UI',sans-serif;
+  font-size: 1rem;
+}
+body{
+  width: 100vw;
+  min-height: 100vh;
+}
+main{
+  width: 100vw;
+  min-height: 100vh;
+  margin-top: 4rem;
+}
+section{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn {
+  border: none ;
+  outline: none;
+  border-radius: .1rem;
+  padding: 0 .5rem;
+  min-width: 5rem;
+  height: 2.5rem;
+  box-shadow:rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background: var(--gradient);
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: .1s;
+}
+
+.btn.plain {
+  background: var(--white);
+  color: var(--black);
+  border: 1px solid var(--grey);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+
+body {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+}
+
+/* Up to 599px */
+@media only screen and (max-width: 599px) {
+ html{
+  font-size: 45%;
+ }
+ }
+ /* 600px to 767px */
+ @media only screen and (min-width: 600px) and (max-width: 767px) {
+   
+   html{
+    font-size: 65%;
+   }
+}
+/* 768px to 1023px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  html{
+   font-size: 85%;
+  }
+  
+}
+/* 1024px and up */
+@media only screen and (min-width: 1024px) {
+  html{
+   font-size: 100%;
+  }
+  
+}
