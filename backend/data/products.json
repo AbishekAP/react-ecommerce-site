@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Smartphone",
+        "price": 15999.00,
+        "description": "A high-end smartphone with advanced features.",
+        "stock_count": 50,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/smartphone.webp"
+        ],
+        "seller": "Electronics World Inc.",
+        "category": "Electronics"
+    },
+    {
+        "name": "Laptop",
+        "price": 129999.00,
+        "description": "A sleek and powerful laptop for professional use.",
+        "stock_count": 30,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/laptop.webp"
+        ],
+        "seller": "Tech Superstore",
+        "category": "Electronics"
+    },
+    {
+        "name": "Headphones",
+        "price": 1999.00,
+        "description": "High-quality noise-canceling headphones for immersive audio experience.",
+        "stock_count": 100,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/headphones.jpg"
+        ],
+        "seller": "Audio Emporium",
+        "category": "Electronics"
+    },
+    {
+        "name": "Smart Watch",
+        "price": 1499.00,
+        "description": "A fitness tracker smartwatch to monitor health and activity.",
+        "stock_count": 80,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/smartwatch.jpg"
+            ],
+        "seller": "Wearable Tech Co.",
+        "category": "Electronics"
+    },
+    {
+        "name": "Tablet",
+        "price": 49999.00,
+        "description": "A versatile tablet for work and entertainment.",
+        "stock_count": 60,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/tablet.jpg"
+        ],
+        "seller": "Tech Haven",
+        "category": "Electronics"
+    },
+    {
+        "name": "Gaming Console",
+        "price": 239999.00,
+        "description": "Powerful gaming console for immersive gaming experiences.",
+        "stock_count": 70,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/gaming_console.jpg"
+        ],
+        "seller": "GameXpress",
+        "category": "Electronics"
+    },
+    {
+        "name": "Wireless Speaker",
+        "price": 999.00,
+        "description": "Portable Bluetooth speaker with rich, clear sound.",
+        "stock_count": 120,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/wireless_speaker.jpg"
+        ],
+        "seller": "Audio Emporium",
+        "category": "Electronics"
+    },
+    {
+        "name": "External Hard Drive",
+        "price": 1299.00,
+        "description": "High-capacity external hard drive for secure data storage.",
+        "stock_count": 40,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/hard_drive.jpg"
+        ],
+        "seller": "Data Solutions Inc.",
+        "category": "Electronics"
+    },
+    {
+        "name": "T-Shirt",
+        "price": 529.00,
+        "description": "Comfortable cotton t-shirt for casual wear.",
+        "stock_count": 150,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/tshirt.webp"
+        ],
+        "seller": "Fashion Trends",
+        "category": "Clothing"
+    },
+    {
+        "name": "Sneakers",
+        "price": 1799.00,
+        "description": "Stylish sneakers for urban lifestyle.",
+        "stock_count": 80,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/sneakers.jpg"
+        ],
+        "seller": "Footwear Emporium",
+        "category": "Shoes"
+    },
+    {
+        "name": "Vacuum Cleaner",
+        "price": 19999.00,
+        "description": "Powerful vacuum cleaner for efficient cleaning.",
+        "stock_count": 40,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/vacuum_cleaner.jpg"
+        ],
+        "seller": "CleanTech Appliances",
+        "category": "Appliances"
+    },
+    {
+        "name": "Toaster",
+        "price": 1299.00,
+        "description": "Compact toaster for toasting bread slices.",
+        "stock_count": 60,
+        "images": [
+            "https://ik.imagekit.io/abishekap/ap-mart/toaster.jpg"
+        ],
+        "seller": "Kitchen Essentials",
+        "category": "Appliances"
+    }
+]

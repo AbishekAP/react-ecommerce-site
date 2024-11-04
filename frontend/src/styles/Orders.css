@@ -1,0 +1,140 @@
+.orders-container {
+    padding: 1rem 9rem;
+}
+
+.orders-container h1 {
+    background: var(--gradient);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+    font-size: 3rem;
+}
+
+.order-items {
+    width: 100%;
+    min-height: 25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.order-item {
+    width: 100%;
+    min-height: 25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    border-radius: .2rem;
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, #fc02bd, #00e1ff);
+    border-image-slice: 1;
+    background: var(--white);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 0.5rem;
+}
+
+.order-item a {
+    width: 100%;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.order-item-details {
+    width: 100%;
+    min-height: 10rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    border-radius: .2rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.order-item-img {
+    width: 50%;
+    height: 100%;
+    padding: .5rem;
+    overflow: hidden;
+    border-right: .1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.order-item-img img {
+    width: 100%;
+    height: 10rem;
+    object-fit: contain;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.order-item-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.order-item-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.delivery-info h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.delivery-details {
+    width: 100%;
+}
+
+.delivery-details h3 {
+    font-size: 1.5rem;
+}
+
+.customer-details {
+    padding: 1rem;
+    border: .1rem solid rgba(0, 0, 0, 0.1);
+}
+.customer-details p{
+    font-weight: 600;
+    color: var(--black);
+}
+.customer-details span{
+    font-weight: 400;
+}
+.order-item-info p span {
+    font-weight: 400;
+    padding: 0;
+}
+
+.order-item-info p {
+    color: var(--black);
+    font-weight: 600;
+}
+
+.empty-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-container h3 {
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.empty-container .ion-icon{
+    color: var(--grey);
+    font-size: 10rem;
+}

@@ -1,0 +1,16 @@
+
+.empty-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-container h3 {
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.empty-container .ion-icon{
+    color: var(--grey);
+    font-size: 10rem;
+}

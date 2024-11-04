@@ -1,0 +1,138 @@
+.customer-details-form-container {
+    padding: 3rem 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.connection {
+    width: 10rem;
+    height: 0.105rem;
+    background-color: var(--grey);
+}
+
+.disk {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disk.active {
+    background: var(--gradient);
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.disk.active p {
+    color: var(--white);
+}
+
+.disk p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.customer-details-form-container h1 {
+    background: var(--gradient);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+    font-size: 3rem;
+}
+
+.customer-details-form-wrapper {
+    width: 100%;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background: var(--white);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+}
+
+.customer-details-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.customer-details-form .input-grp {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.customer-details-form .input-grp input {
+    width: 20rem;
+    height: 3rem;
+    padding: 0 .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid var(--grey);
+    outline: none;
+    color: var(--grey);
+}
+
+.customer-details-form .input-grp input::placeholder {
+    color: var(--grey);
+}
+
+.customer-details-form .input-grp textarea {
+    width: 20rem;
+    height: 5rem;
+    padding: .5rem;
+    border: 1px solid var(--grey);
+    outline: none;
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 400;
+    resize: none;
+}
+
+.customer-details-form .input-grp textarea::placeholder {
+    color: var(--grey);
+}
+
+.customer-details-form .input-grp input:focus,
+.customer-details-form .input-grp textarea:focus {
+    border: 1.5px solid var(--black);
+    color: var(--black);
+}
+
+.customer-details-form .input-grp label {
+    color: var(--black);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.customer-details-form .input-btn {
+    flex-basis: 100%;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
