@@ -6,7 +6,7 @@ import {IoCheckmarkCircleSharp} from 'react-icons/io5'
 
 export default function Orderplace(){
     return <Fragment>
-        <section class="order-placed-container">
+        <section className="order-placed-container">
         <div className='msg'>
         <IoCheckmarkCircleSharp className='ion-icon'/>
             <span>
@@ -14,7 +14,7 @@ export default function Orderplace(){
             </span>
         </div>
         <Link to={'/products'}>
-            <button type="button" class="btn" title="Back">continue shopping</button>
+            <button type="button" className="btn" title="Back">continue shopping</button>
         </Link>
     </section>
     </Fragment>

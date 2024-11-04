@@ -6,7 +6,7 @@ import { DataContext } from "../context/DataContext";
 import NotFound from "./NotFound";
 
 function PaymentMethod() {
-    const {deliveryDetails, setDeliveryDetails, orderItems,setOrders,accountDetails} = useContext(DataContext)
+    const {deliveryDetails, setDeliveryDetails, orderItems,accountDetails} = useContext(DataContext)
     const email = accountDetails.email;
     const navigate = useNavigate()
     const handleSubmit = async (e) => {
